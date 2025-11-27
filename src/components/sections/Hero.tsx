@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'motion/react'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -19,19 +20,25 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="flex flex-col items-center"
         >
-          {/* Logo placeholder */}
-          <div className="mb-8">
-            <h1 className="text-realaize-gold text-2xl md:text-3xl font-semibold tracking-wider">
-              Real<span className="text-realaize-gold-light">AI</span>ze Capital
-            </h1>
+          {/* Logo grande */}
+          <div className="mb-12">
+            <Image
+              src="/logo.png"
+              alt="RealAIze Capital"
+              width={400}
+              height={400}
+              className="w-96 md:w-[36rem] lg:w-[42rem] h-auto"
+              priority
+            />
           </div>
 
           {/* Tagline */}
-          <h2 className="heading-xl text-white mb-6">
+          <h1 className="heading-xl text-white mb-6">
             Where Real Estate Meets{' '}
             <span className="text-realaize-gold">Intelligence</span>
-          </h2>
+          </h1>
 
           {/* Subtitle */}
           <p className="text-body text-gray-300 max-w-2xl mx-auto mb-12">
