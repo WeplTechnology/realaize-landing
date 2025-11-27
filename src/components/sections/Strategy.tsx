@@ -5,8 +5,8 @@ import { motion } from 'motion/react'
 const strategies = [
   { label: 'BTS', desc: 'Build to Sell' },
   { label: 'BTR', desc: 'Build to Rent' },
-  { label: 'Alternative Living', desc: 'Coliving, Senior Living' },
-  { label: 'Hospitality', desc: 'Hoteles boutique' },
+  { label: 'Alternative Living', desc: 'Coliving, Flex Living, Senior Living' },
+  { label: 'Hospitality', desc: 'Hoteles, Hostels y otros alojamientos' },
 ]
 
 export default function Strategy() {
