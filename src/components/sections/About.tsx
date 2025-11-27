@@ -17,10 +17,9 @@ export default function About() {
             ¿Qué es RealAIze Capital?
           </h2>
           <p className="text-body text-realaize-navy/80 mb-12">
-            RealAIze Capital es un vehículo de inversión inmobiliaria que combina la experiencia 
-            de un equipo multidisciplinar con tecnología de inteligencia artificial propietaria. 
-            Nuestro enfoque data-driven nos permite identificar oportunidades, optimizar la gestión 
-            de activos y maximizar el retorno para nuestros inversores.
+            Un vehículo de inversión inmobiliaria impulsado por inteligencia artificial. 
+            Combinamos un equipo con amplia experiencia en el sector con tecnología propia 
+            que nos permite analizar el mercado, identificar oportunidades y optimizar cada inversión.
           </p>
         </motion.div>
 
